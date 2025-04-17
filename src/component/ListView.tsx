@@ -3,7 +3,7 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 interface ListViewProps {
     title: string;
-    onEdit: () => void;
+    onEdit?: () => void;
     onDelete: () => void;
 }
 
